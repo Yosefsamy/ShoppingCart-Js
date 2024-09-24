@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/register.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-4" href="#">Shopping Cart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-white fs-4"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item fs-5">
+                <a class="nav-link active text-white" aria-current="page" href="login.html">Login</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-white" href="register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      <div class="container mt-5">
+        <h1 class="text-center text-muted">Register Now</h1>
+        <!-- Form -->
+        <div class="form-group mt-2 w-50 shadow-lg p-5">
+            <form novalidate>
+                <div class="form-floating mb-3">
+                    <input type="text" id="name" class="form-control" id="floatingInput" placeholder="your name" required>
+                    <label for="floatingInput">Name</label>
+                  </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" id="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email Address</label>
+                  </div>
+
+                  <div class="form-floating mb-3">
+                    <input type="password" id="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Password</label>
+                  </div>
+
+                  <button id="registerBtn" class="btn btn-primary px-4 py-2 d-block mx-auto mt-3">Register</button>
+            </form>
+        </div>
+
+      </div>
+    
+      <script src="Js/bootstrap.bundle.min.js"></script>
+      <script src="Js/register.js"></script>
+</body>
+</html>

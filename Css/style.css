@@ -1,0 +1,62 @@
+
+.navbar-toggler{
+    border: none;
+}
+
+
+.col-md-4,
+.col-12{
+   transition: all 0.2s;
+}
+
+.col-md-4:hover,
+.col-12:hover{
+    border: 3px solid green;
+}
+
+.col-md-4 img{
+    height: 150px !important;
+}
+
+ul .cart{
+    position:relative
+}
+
+ul .cart span{
+    position: absolute;
+    width: 20px;
+    font-size: 13px;
+    border-radius: 50%;
+    background-color: red;
+    top: -3px;
+    right: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width : 768px) {
+    #second-ul{
+        display: block !important;
+        padding-left: 48px;
+    }
+
+    #logoutBtn{
+        margin-top: -10px;
+    }
+
+    ul .cart span{
+        position: absolute;
+        width: 20px;
+        font-size: 13px;
+        border-radius: 50%;
+        background-color: red;
+        top: -3px;
+        left: -2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+

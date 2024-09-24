@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-4" href="index.html">Shopping Cart</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars text-white fs-4"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ps-5">
+              <li class="nav-item fs-5">
+                <a id="userName" class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-white" href="cart.html">Cart</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item fs-5">
+                <a class="nav-link text-white" href="#">Brands</a>
+              </li>
+
+            </ul>
+
+            <ul id="second-ul" class="list-unstyled ms-auto d-flex align-items-center mb-0 me-3">
+              
+              <li class="nav-item fs-5 p-2 cart">
+                <i class="fa-solid fa-cart-shopping fs-4 text-success"></i>
+                <span id="badge"></span>
+              </li>
+
+              <li class="nav-item fs-5 p-2">
+                <a id="logoutBtn" class="nav-link text-white" href="#">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Products -->
+     <div class="container my-5">
+      <div id="products-row" class="row g-3"></div>
+    </div>
+      <script src="Js/bootstrap.bundle.min.js"></script>
+      <script src="Js/main.js"></script>
+    
+</body>
+</html>
